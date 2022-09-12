@@ -3,7 +3,7 @@ import sys
 from time import sleep
 
 for x in range(30): 
-    sleep(2)
+    sleep(1)
     print("hello world")
 code = random.choice([0,1])
 sys.exit(code)
